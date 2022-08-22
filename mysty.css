@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+:root {
+    --main-bg-color: #e50914;
+}
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+
+}
+header {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 13px;
+}
+
+nav ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+footer {
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+}
+
+.container {
+    min-height: calc(100vh - 12vh - 8vh);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 8px;
+}
+
+.search button {
+    font-family: 'Alex Brush', cursive;
+    font-weight: 900;
+}
+
+.btn {
+    background-color: var(--main-bg-color);
+    height: 27px;
+    padding: 0 8px;
+    margin: 0;
+    border: 2px solid white;
+    color: wheat;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.slider {
+    width: 80vw;
+    margin: 2px auto;
+    overflow: hidden;
+}
+
+.h3 {
+    margin: 8px 4px;
+    font-size: 16px;
+}
+
+.video {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 97vw;
+    margin: 15px 20px;
+}
+
+.sub-card {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 6px;
+
+}
+
+.my-1 {
+    margin: 0px 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+.net{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
